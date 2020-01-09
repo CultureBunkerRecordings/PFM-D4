@@ -132,8 +132,8 @@ int oneTimesOne(int numb1, int numb2){
  9)
  */
 
-double howAccurate(bool very, bool not){
-  ignoreUnused(very, not);
+double howAccurate(bool very, bool isNot){
+  ignoreUnused(very, isNot);
   return {};
 }
 /*
@@ -164,11 +164,11 @@ int main()
     //7)
     nothingToReturn('y', 'n');
     //8)
-    oneTimesOne(78, 1)
+    oneTimesOne(78, 1);
     //9)
     howAccurate(true, false);
     //10)
-    finallyGotThere()
+    finallyGotThere();
 
     
     std::cout << "good to go!" << std::endl;
