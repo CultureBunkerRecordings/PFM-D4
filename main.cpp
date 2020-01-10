@@ -43,7 +43,7 @@ void ignoreUnused(T&&...) { }
 
 //2)
 void variableDeclarations()
-{
+{ 
     //example:
     int number = 2; //declaration of a primitive named 'number' with an initial value of '2'
     char character = 'a';
