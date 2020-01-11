@@ -58,7 +58,7 @@ void variableDeclarations()
  example:
  */
 bool rentACar(int rentalDuration, int carType = 0)  //function declaration with random number of arguments, arbitrary number of arguments have default value
-{ 
+{
     ignoreUnused(rentalDuration, carType); //passing each function parameter to the ignoreUnused() function
     return {}; //if your function returns something other than void, add 'return {};' at the end of it.
 } 
@@ -69,8 +69,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 
 int calculate(int num1, int num2 = 8)
 {
-  ignoreUnused(num1, num2);
-  return {};
+    ignoreUnused(num1, num2);
+    return {};
 }
 
 /*
@@ -78,16 +78,16 @@ int calculate(int num1, int num2 = 8)
  */
 float whatsTheTime(int hours, int mins, int secs = 0)
 {
-  ignoreUnused(hours, mins, secs);
-  return {};
+    ignoreUnused(hours, mins, secs);
+    return {};
 }
 /*
  3)
  */
 char whichLetterFirst(char char1, char char2)
 {
-  ignoreUnused(char1, char2);
-  return {};
+    ignoreUnused(char1, char2);
+    return {};
 }
 
 /*
@@ -95,8 +95,8 @@ char whichLetterFirst(char char1, char char2)
  */
 double scientific(float num, int pow = 64)
 {
-  ignoreUnused(num, pow);
-  return {};
+    ignoreUnused(num, pow);
+    return {};
 }
 
 /*
@@ -104,46 +104,46 @@ double scientific(float num, int pow = 64)
  */
 void message(char letter, int space)
 {
-  ignoreUnused(letter, space);
+    ignoreUnused(letter, space);
 }
 /*
  6)
  */
 bool isItTrue(double precise, float accurate, int limited)
 {
-  ignoreUnused(precise, accurate, limited);
-  return {};
+    ignoreUnused(precise, accurate, limited);
+    return {};
 }
 /*
  7)
  */
 void nothingToReturn(char yes, char no)
 {
-  ignoreUnused(yes, no);
+    ignoreUnused(yes, no);
 }
 /*
  8)
  */
 int oneTimesOne(int numb1, int numb2)
 {
-  ignoreUnused(numb1, numb2);
-  return {};
+    ignoreUnused(numb1, numb2);
+    return {};
 }
 /*
  9)
  */
 double howAccurate(bool very, bool isNot)
 {
-  ignoreUnused(very, isNot);
-  return {};
+    ignoreUnused(very, isNot);
+    return {};
 }
 /*
  10)
  */
 bool finallyGotThere(char happy = 'y')
 {
-  ignoreUnused(happy);
-  return {};
+    ignoreUnused(happy);
+    return {};
 }
 int main()
 {
